@@ -77,5 +77,23 @@ console.log(newSub);
    // trim()
 
    console.log(a.length);
+  console.log(a.trim().length);
 
-   
+  // reapet()
+  console.log(z.repeat(5));
+
+  //replace()
+
+  let word = "alik yaxshimisiz alik";
+  let newOne = word.replace("alik", "salom");
+  let newAll = word .replaceAll("alik", "salom");
+  console.log(newAll);
+
+  // split()
+  let newArr =word.split(",");
+
+  console.log(newArr);
+  let arr = [{ name :"Shaxzod"},{name:"Daler"},{name: "Amir"}];
+  
+
+
