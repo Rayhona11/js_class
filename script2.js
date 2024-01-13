@@ -36,13 +36,18 @@ function sliceFunc(str1, age) {
 
 console.log(sliceFunc(str, 50));
 
-  function exam(str2,){
-    let num = 80;
- //   if(num > 90){
-    //  return "A"
+let str2 = ""; 
+
+  function str3(str2){
+
+    if(str2.length >1){
+      return true
+    } else if(str2.length > 0){
+        return false
+    } else{
+        return true
     }
-    if(num > 70){
-       return "A"
-  } 
-  
-  console.log(exam("str2"));
+  }
+  console.log(str3(str2));
+
+ 
