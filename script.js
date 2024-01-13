@@ -34,14 +34,14 @@ let str1 = "Bittali Qo`shtirnoq";
 let str2 ='bektik orqali string yasash'
 
 // ? String property
-console.log(str.length);
+//console.log(str.length);
 
 //? String methods
 // charAt()
-console.log(str.charAt(6));
+//console.log(str.charAt(6));
 
 // At()
-console.log(str.At(6));
+//console.log(str.At(6));
 
 // slice()
 
@@ -61,7 +61,7 @@ console.log(newSub);
  console.log(substrNew);
 
    // toLowerCase()
-   console.log(str.loLowerCase());
+ //  console.log(str.loLowerCase());
 
    // toUpperCase
    console.log(str.toUpperCase());
@@ -76,8 +76,8 @@ console.log(newSub);
    
    // trim()
 
-   console.log(a.length);
-  console.log(a.trim().length);
+    console.log(a.length);
+    console.log(a.trim().length);
 
   // reapet()
   console.log(z.repeat(5));
@@ -94,6 +94,15 @@ console.log(newSub);
 
   console.log(newArr);
   let arr = [{ name :"Shaxzod"},{name:"Daler"},{name: "Amir"}];
+ 
+  // Function
+
+  function sayHello(a,b){
+    let result = a + b * 10;
+
+    return result;
+}
+console.log(sayHello(12,34));
   
 
 
