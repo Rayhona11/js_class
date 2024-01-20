@@ -8,7 +8,7 @@
 
 
 // headh1.addEventListener("click", clickFunc);
-// headh1.addEventListener("mouseover", clickFunc);
+// headh1.addEventListener("mouseover", clickFunc);hover qilish uchun
 // headh1.addEventListener("dblclick", clickFunc);
 // inp.addEventListener("focus", clickFunc);
 // inp.addEventListener("keydown", clickFunc);
